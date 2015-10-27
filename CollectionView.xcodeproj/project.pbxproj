@@ -13,11 +13,11 @@
 		53C4ED38159E740C0019285D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53C4ED37159E740C0019285D /* Foundation.framework */; };
 		53C4ED3A159E740C0019285D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53C4ED39159E740C0019285D /* CoreGraphics.framework */; };
 		53C4ED49159E740D0019285D /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 53C4ED47159E740D0019285D /* MainStoryboard.storyboard */; };
-		D76C93401B512E55009B1312 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D76C933F1B512E55009B1312 /* DetailViewController.swift */; };
-		D76C93421B512EFB009B1312 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D76C93411B512EFB009B1312 /* ViewController.swift */; };
-		D76C93441B513111009B1312 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D76C93431B513111009B1312 /* AppDelegate.swift */; };
-		D7A714281B512C7C00122018 /* CustomCellBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7A714271B512C7C00122018 /* CustomCellBackground.swift */; };
-		D7A7142A1B512D5E00122018 /* Cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7A714291B512D5E00122018 /* Cell.swift */; };
+		D75022011BE02C7F003EEFA9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D75021FC1BE02C7F003EEFA9 /* AppDelegate.swift */; };
+		D75022021BE02C7F003EEFA9 /* Cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D75021FD1BE02C7F003EEFA9 /* Cell.swift */; };
+		D75022031BE02C7F003EEFA9 /* CustomCellBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = D75021FE1BE02C7F003EEFA9 /* CustomCellBackground.swift */; };
+		D75022041BE02C7F003EEFA9 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D75021FF1BE02C7F003EEFA9 /* DetailViewController.swift */; };
+		D75022051BE02C7F003EEFA9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D75022001BE02C7F003EEFA9 /* ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,14 +29,14 @@
 		53C4ED37159E740C0019285D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		53C4ED39159E740C0019285D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		53C4ED3D159E740C0019285D /* CollectionView-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CollectionView-Info.plist"; sourceTree = "<group>"; };
-		D76C933F1B512E55009B1312 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
-		D76C93411B512EFB009B1312 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		D76C93431B513111009B1312 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D76C93451B5132A9009B1312 /* LICENSE.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE.txt; sourceTree = "<group>"; };
-		D76C93461B5132A9009B1312 /* ReadMe.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = ReadMe.md; sourceTree = "<group>"; };
-		D76C93491B5132D4009B1312 /* readme.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = readme.txt; sourceTree = "<group>"; };
-		D7A714271B512C7C00122018 /* CustomCellBackground.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomCellBackground.swift; sourceTree = "<group>"; };
-		D7A714291B512D5E00122018 /* Cell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Cell.swift; sourceTree = "<group>"; };
+		D75021FC1BE02C7F003EEFA9 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D75021FD1BE02C7F003EEFA9 /* Cell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Cell.swift; sourceTree = "<group>"; };
+		D75021FE1BE02C7F003EEFA9 /* CustomCellBackground.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomCellBackground.swift; sourceTree = "<group>"; };
+		D75021FF1BE02C7F003EEFA9 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		D75022001BE02C7F003EEFA9 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D75022061BE02EF6003EEFA9 /* LICENSE.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE.txt; sourceTree = "<group>"; };
+		D75022071BE02EF6003EEFA9 /* ReadMe.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = ReadMe.md; sourceTree = "<group>"; };
+		D75022081BE02EF6003EEFA9 /* readme.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = readme.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,9 +56,9 @@
 		53C4ED26159E740C0019285D = {
 			isa = PBXGroup;
 			children = (
-				D76C93491B5132D4009B1312 /* readme.txt */,
-				D76C93451B5132A9009B1312 /* LICENSE.txt */,
-				D76C93461B5132A9009B1312 /* ReadMe.md */,
+				D75022061BE02EF6003EEFA9 /* LICENSE.txt */,
+				D75022071BE02EF6003EEFA9 /* ReadMe.md */,
+				D75022081BE02EF6003EEFA9 /* readme.txt */,
 				53C4ED3B159E740C0019285D /* CollectionView */,
 				53C4ED34159E740C0019285D /* Frameworks */,
 				53C4ED32159E740C0019285D /* Products */,
@@ -86,11 +86,11 @@
 		53C4ED3B159E740C0019285D /* CollectionView */ = {
 			isa = PBXGroup;
 			children = (
-				D76C93431B513111009B1312 /* AppDelegate.swift */,
-				D76C93411B512EFB009B1312 /* ViewController.swift */,
-				D76C933F1B512E55009B1312 /* DetailViewController.swift */,
-				D7A714291B512D5E00122018 /* Cell.swift */,
-				D7A714271B512C7C00122018 /* CustomCellBackground.swift */,
+				D75021FC1BE02C7F003EEFA9 /* AppDelegate.swift */,
+				D75022001BE02C7F003EEFA9 /* ViewController.swift */,
+				D75021FF1BE02C7F003EEFA9 /* DetailViewController.swift */,
+				D75021FD1BE02C7F003EEFA9 /* Cell.swift */,
+				D75021FE1BE02C7F003EEFA9 /* CustomCellBackground.swift */,
 				53C4ED3C159E740C0019285D /* Supporting Files */,
 			);
 			path = CollectionView;
@@ -133,7 +133,7 @@
 		53C4ED28159E740C0019285D /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0700;
+				LastSwiftUpdateCheck = 0710;
 				LastUpgradeCheck = 0700;
 			};
 			buildConfigurationList = 53C4ED2B159E740C0019285D /* Build configuration list for PBXProject "CollectionView" */;
@@ -172,11 +172,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D76C93441B513111009B1312 /* AppDelegate.swift in Sources */,
-				D76C93421B512EFB009B1312 /* ViewController.swift in Sources */,
-				D76C93401B512E55009B1312 /* DetailViewController.swift in Sources */,
-				D7A714281B512C7C00122018 /* CustomCellBackground.swift in Sources */,
-				D7A7142A1B512D5E00122018 /* Cell.swift in Sources */,
+				D75022051BE02C7F003EEFA9 /* ViewController.swift in Sources */,
+				D75022011BE02C7F003EEFA9 /* AppDelegate.swift in Sources */,
+				D75022021BE02C7F003EEFA9 /* Cell.swift in Sources */,
+				D75022041BE02C7F003EEFA9 /* DetailViewController.swift in Sources */,
+				D75022031BE02C7F003EEFA9 /* CustomCellBackground.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
