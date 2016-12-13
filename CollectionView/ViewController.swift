@@ -21,14 +21,14 @@ let kCellID = "cellID";                          // UICollectionViewCell storybo
 @objc(ViewController)
 class ViewController: UICollectionViewController {
     
-    override func collectionView(collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
+    override func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         return 32
     }
     
-    override func collectionView(cv: UICollectionView, cellForItemAtIndexPath indexPath: NSIndexPath) -> UICollectionViewCell {
+    override func collectionView(_ cv: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         // we're going to use a custom UICollectionViewCell, which will hold an image and its label
         //
-        let cell = cv.dequeueReusableCellWithReuseIdentifier(kCellID, forIndexPath: indexPath) as! Cell
+        let cell = cv.dequeueReusableCell(withReuseIdentifier: kCellID, for: indexPath) as! Cell
         
         // make the cell's title the actual NSIndexPath value
         cell.label.text = "{\(indexPath.row),\(indexPath.section)}"
@@ -42,14 +42,14 @@ class ViewController: UICollectionViewController {
     
     // the user tapped a collection item, load and set the image on the detail view controller
     //
-    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if segue.identifier == "showDetail" {
-            let selectedIndexPath = self.collectionView!.indexPathsForSelectedItems()![0]
+            let selectedIndexPath = self.collectionView!.indexPathsForSelectedItems![0]
             
             // load the image, to prevent it from being cached we use 'initWithContentsOfFile'
             let imageNameToLoad = "\(selectedIndexPath.row)_full"
             let image = UIImage(named: imageNameToLoad)
-            let detailViewController = segue.destinationViewController as! DetailViewController
+            let detailViewController = segue.destination as! DetailViewController
             detailViewController.image = image
         }
     }

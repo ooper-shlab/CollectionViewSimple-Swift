@@ -25,7 +25,7 @@ class Cell: UICollectionViewCell {
     required init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
         // change to our custom selected background view
-        let backgroundView = CustomCellBackground(frame: CGRectZero)
+        let backgroundView = CustomCellBackground(frame: CGRect.zero)
         self.selectedBackgroundView = backgroundView
     }
     
