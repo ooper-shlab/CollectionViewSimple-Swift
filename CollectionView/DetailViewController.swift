@@ -20,7 +20,7 @@ class DetailViewController: UIViewController {
     var image: UIImage?
     
     
-    @IBOutlet fileprivate var imageView: UIImageView!
+    @IBOutlet private var imageView: UIImageView!
     
     
     override func viewWillAppear(_ animated: Bool) {
